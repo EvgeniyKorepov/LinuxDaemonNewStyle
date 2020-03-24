@@ -72,7 +72,7 @@ begin
         syslog(LOG_NOTICE, 'main Event STOP');
         ExitCode := EXIT_SUCCESS;
         Sleep(10);
-        continue;
+        break;
       end;
     end;
     Sleep(1000);
