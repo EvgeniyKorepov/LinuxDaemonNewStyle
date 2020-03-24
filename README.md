@@ -1,7 +1,7 @@
 # LinuxDaemonNewStyle
 Linux Daemon new style
 
-https://www.freedesktop.org/software/systemd/man/daemon.html
+http://0pointer.de/public/systemd-man/daemon.html#New-Style%20Daemons
 
 Example :
 ```
