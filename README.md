@@ -78,8 +78,8 @@ begin
       begin
         syslog(LOG_NOTICE, 'main Event STOP');
         ExitCode := EXIT_SUCCESS;
-        Sleep(10);
-        continue;
+        Sleep(10); // simulate destroy delay
+        break;
       end;
     end;
     Sleep(1000);
