@@ -85,5 +85,10 @@ begin
     Sleep(1000);
   end;
 end.
-
+```
+Place DaemonNewStyleTest.service to /etc/systemd/system/ and use :
+```
+systemctl start DaemonNewStyleTest.service
+systemctl reload DaemonNewStyleTest.service
+systemctl stop DaemonNewStyleTest.service
 ```
